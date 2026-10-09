@@ -3,6 +3,7 @@
 [ext_resource type="Script" uid="uid://dsjpktts0thfx" path="res://scripts/main.gd" id="1_ig7tw"]
 [ext_resource type="PackedScene" uid="uid://8hww7jke8dk2" path="res://particles/particles.tscn" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://clkchx34mjkha" path="res://pause_controller.gd" id="3_h2yge"]
+[ext_resource type="AudioStream" uid="uid://fj1jnlqrij7" path="res://assets/sounds/dive.wav" id="4_1bvp3"]
 
 [node name="main" type="Node2D" unique_id=1257591521]
 script = ExtResource("1_ig7tw")
@@ -79,3 +80,7 @@ vertical_alignment = 1
 script = ExtResource("3_h2yge")
 
 [node name="particles" parent="." unique_id=925536109 instance=ExtResource("2_0xm2m")]
+
+[node name="background" type="AudioStreamPlayer" parent="." unique_id=713430821]
+stream = ExtResource("4_1bvp3")
+autoplay = true

@@ -86,3 +86,4 @@ script = ExtResource("7_85jxm")
 stream = ExtResource("8_013ri")
 pitch_scale = 0.92
 autoplay = true
+max_polyphony = 65

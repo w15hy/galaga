@@ -6,6 +6,7 @@ var direction := Vector2.DOWN
 
 func _ready() -> void:
 	add_to_group("enemy_bullets")
+	direction = direction.normalized()
 
 func _process(delta: float) -> void:
 	position += direction * speed * delta

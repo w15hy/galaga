@@ -96,10 +96,7 @@ func load_stage(stage_number: int, previous_score: int = 0, previous_lives: int 
 			current_stage_node = STAGE_2_SCENE.instantiate()
 		3:
 			current_stage_node = STAGE_3_SCENE.instantiate()
-<<<<<<< HEAD
-	
-=======
->>>>>>> 250b3426a2c70242faf85a01860cc6a342193231
+
 		4:
 			current_stage_node = STAGE_4_SCENE.instantiate()
 		
@@ -132,12 +129,12 @@ func _on_stage_completed() -> void:
 	current_stage += 1
 	
 	print("SIGUIENTE STAGE: ", current_stage)
-<<<<<<< HEAD
+
 	
 	load_stage(current_stage)
-=======
+
 	load_stage(current_stage, previous_score, previous_lives)
->>>>>>> 250b3426a2c70242faf85a01860cc6a342193231
+
 
 
 func _on_game_over() -> void:
