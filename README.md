@@ -5,6 +5,28 @@
 Este proyecto consiste en el desarrollo de un videojuego  inspirado en **Galaga**, el clásico juego arcade de disparos espaciales. El jugador controla una nave que debe enfrentarse a formaciones de enemigos, esquivar sus proyectiles y acumular puntos para avanzar en la partida.
 
 El proyecto está desarrollado con **Godot Engine y GDScript**, utilizando escenas y nodos para organizar los diferentes componentes del juego.
+**Nota**
+El juego cuenta con 4 niveles o stages con una dificultad intermedia,  por decision del equipo se opto  por esta implementacion puesto a que   consideramos que el juego  es algo corto, Acontinuacion presentamos algunas escenas del juego 
+
+- ## **MAIN**
+<img width="485" height="631" alt="image" src="https://github.com/user-attachments/assets/5b4a49a0-26d3-4b61-94ba-0176cff18bef" />
+<img width="481" height="623" alt="image" src="https://github.com/user-attachments/assets/d22f4eb2-f56a-42b8-a6a8-9ce3c2ba829a" />
+
+- ## **STAGE1**
+<img width="492" height="648" alt="image" src="https://github.com/user-attachments/assets/03acd71b-15a6-4d3c-b30d-227e971381aa" />
+<img width="494" height="623" alt="image" src="https://github.com/user-attachments/assets/b8d2d985-4b1e-41c5-9734-9d9e889a61b7" />
+
+- ## **STAGE2**
+<img width="498" height="631" alt="image" src="https://github.com/user-attachments/assets/9d10cf5d-8763-413e-bbb0-f8ea25f228af" />
+<img width="468" height="625" alt="image" src="https://github.com/user-attachments/assets/a7eb86b8-ef1a-476f-a83d-90bfcfda20e5" />
+
+ - ## **STAGE3**
+<img width="493" height="636" alt="image" src="https://github.com/user-attachments/assets/547fe796-822f-48f7-af66-66b825cbe23d" />
+<img width="492" height="631" alt="image" src="https://github.com/user-attachments/assets/d83014dc-c303-40f6-b2c3-1d0bab32ee79" />
+
+ - ## **STAGE4**
+<img width="478" height="631" alt="image" src="https://github.com/user-attachments/assets/2f25da00-0f1c-4ff3-90fb-4e4f188dea85" />
+<img width="509" height="630" alt="image" src="https://github.com/user-attachments/assets/15a04509-0011-47af-8df9-cb96d1b9773b" />
 
 ## Características
 
@@ -18,6 +40,7 @@ El proyecto está desarrollado con **Godot Engine y GDScript**, utilizando escen
 - **Efectos visuales y sonidos:** se incluyen recursos audiovisuales para complementar los eventos del juego.
 - **Game Over:** al finalizar la partida, se muestra el estado correspondiente y se permite regresar a la pantalla principal.
 - **Organización por etapas:** el proyecto cuenta con escenas separadas para facilitar la implementación e integración de diferentes etapas.
+- 
 
 ## Tecnologías utilizadas
 
@@ -32,7 +55,7 @@ Para ejecutar el proyecto se necesita:
 
 - Godot Engine 4, compatible con la versión utilizada para desarrollar el proyecto.
 - Los archivos del repositorio, incluyendo las escenas, scripts y recursos gráficos y de sonido.
-- Sin Embargo el ropsosiorio cuenta con 2 archivos ejecutable para windows y dristribusiones linux galaga.exe y galaga.x64_86, los cuales permiten ejecutar el juegos sin necesidad de instalar godot, mas delente se indica e proceso de instalacion de godot si requiere
+- Sin Embargo el ropsosiorio cuenta con 2 archivos ejecutable para windows y dristribusiones linux galaga.exe y galaga.x64_86, los cuales se deben descargar justo al archivo gala.pck, los cuales permiten ejecutar el juegos sin necesidad de instalar godot, mas delente se indica e proceso de instalacion de godot si lo  requiere
 
 ## Instalación de Godot Engine
 
